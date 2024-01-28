@@ -1,3 +1,3 @@
 # Chat-app
-This project is a web application developed using the MEVN web stack. It serves as a social platform that offers users similar functionalities as popular platforms like Instagram or Facebook. Users have the ability to follow other individuals, rate posts, and engage in real-time chat conversations with other users utilizing the socket.io technology.
+This project is a web application developed using the MEVN web stack. It serves as a social platform that offers users similar functionalities as popular platforms like Instagram or Facebook. Users have the ability to follow other individuals and engage in real-time chat conversations with other users utilizing the socket.io technology.
  
