@@ -27,6 +27,58 @@ body{
 .header{
     font-size: 60px;
 }
+.profile{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.profile-header{
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+.info-div{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    color: white;
+    font-size: 22px;
+    margin-top: 5%;
+}
+.edit{
+    width: 50px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    height: 30px;
+    margin-left: 5%;
+    border-radius: 5%;
+}
+.change-password{
+    display: flex;
+    width: 33%;
+}
+.password-form{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-top: 5%;
+
+}
+.picture-div{
+    display: flex;
+    width: 33%;
+}
+.user-picture{
+    margin-left: 2%;
+    width: 400px;
+}
+.password-header{
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 45px;
+    color: white;
+}
 .input{
     margin-bottom: 15px;
     width: 99%;
