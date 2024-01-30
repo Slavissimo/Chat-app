@@ -10,6 +10,106 @@ body{
     justify-content: center;
     align-items: center;
 }
+.chat-site{
+    display: flex;
+    width: 100%;
+}
+.chat-list{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 30%;
+}
+.chat{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 97vh;
+    border: 2px solid gray;
+    border-bottom: none;
+}
+.chat-list-header{
+    color: white;
+    font-size: 32px;
+}
+.chat-header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid gray;
+}
+.chats{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    text-align: left;
+}
+.chat-name{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 36px;
+    margin-left: 5%;
+}
+.chat-name-list{
+    color: white;
+    font-size: 24px;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.send{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    background-color: dodgerblue;
+    border: none;
+    margin-bottom: 10px;
+    color: white;
+}
+.message-text-received{
+    display: flex;
+    margin-left: 2%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 5%;
+    background-color: darkgrey;
+}
+.message-text-sent{
+    display: flex;
+    margin-left: 45%;
+    width: 50%;
+    padding: 20px;
+    border-radius: 5%;
+    color: white;
+    background-color: rgb(51, 137, 207);
+}
+.message-form{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.chat-picture-list{
+    height: 120px;
+}
+.chat-picture{
+    height: 120px;
+    margin-left: 3%;
+}
+.chat-input{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width: 69%;
+}
+.chat-option{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 120px;
+    border: 1px solid black;
+}
 .form{
     display: flex;
     width: 20%;
@@ -68,6 +168,7 @@ body{
 .picture-div{
     display: flex;
     width: 33%;
+    color: white;
 }
 .user-picture{
     margin-left: 2%;
