@@ -1,7 +1,4 @@
 <template>
-    <head>
-        <title>Vue.js</title>
-    </head>
     <body>
         <div id="app">
             <div class="login-box">
@@ -14,7 +11,7 @@
 </template>
 
 <script>
-import Login from "/components/login.vue";
+import Login from "../components/login.vue";
 
 export default {
     components: {
